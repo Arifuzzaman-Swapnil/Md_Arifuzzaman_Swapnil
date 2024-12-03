@@ -18,9 +18,11 @@
     --h2-font: 3 rem;
     --p-font: 1 rem;
 }
+
 body{
     color:var(--text-color);
     background: var(--bg-color);
+    padding: 40px 16%;
 }
 
 header{
@@ -36,17 +38,21 @@ header{
     background: transparent;
     transition: all .50s ease;
 }
+
 .logo{
      font-size: 36px;
      color: var(--text-color);
      font-weight: 600;
 }
+
 span{
     color: var(--main-color);
 }
+
 .navlist{
     display: flex;
 }
+
 .navlist a{
     font-size: var(--p-font);
     font-weight: 500;
@@ -54,16 +60,19 @@ span{
     margin-left: 40px;
     transition: all .50s ease;
 }
+
 .navlist a:hover{
     color: var(--main-color);
     text-shadow: 3px 3px 20px var(--main-color), -2px 1px 30px var(--text-color)
 }
+
 #menu-icon{
     font-size: 35px;
     z-index: 10001;
     cursor: pointer;
     display: none;
 }
+
 .h-btn{
     display: inline;
     padding: 11px 26px;
@@ -75,9 +84,40 @@ span{
     font-weight: 600;   
     transition: all 0.50s ease;
 }
+
 .h-btn:hover{
     background: var(--main-color);
     color: var(--bg-color);
     box-shadow: 0 0 20px var(--main-color);
     transform: scale(1.1);
+}
+selection{
+    padding: 110px 16% 90px; 
+}
+.hero_main{
+    display: flex;
+    justify-content: space-between;
+}
+.hero_info{
+    margin-top: 160px;
+    width: 85%;
+
+    /* text-align: justify; */
+}
+.justify{
+    margin-top: 50px;
+    text-align: justify;
+    margin-bottom: 15px;
+}
+.hero{
+    height: 100;
+    width: 100%;
+    /* background: url(./image/IMG_20240523_024707__1_-removebg-preview.png); */
+    background-position: top right;
+    block-size: cover;
+    align-items: center;
+    justify-content: flex-start;
+}
+.hero_img{
+    margin-top: 30px;
 }
