@@ -324,7 +324,7 @@ hr{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 4.2rem;
+    margin-top: 1.2rem;
 }
 .contact_form form{
     position: relative;
@@ -357,4 +357,31 @@ form .send_btn{
     font-weight: 600;
     transition: all 0.50s ease;
     width: 60%;
+}
+.contact_div{
+    display: flex;
+}
+.details{
+    /* margin-bottom: 10px; */
+    color: var(--other-color);
+    font-size: var(--p-font);
+    font-weight: 400;
+    align-items: center;
+    height: 10px;
+}
+.details p{
+    font-size: var(--p-font);
+}
+.address{
+    padding: 15px;
+    margin-left: 90px;
+}
+.address:hover{
+    padding: 15PX;
+    background: transparent;
+    color: var(--main-color);
+    box-shadow: 0 0 20px var(--main-color);
+}
+.address h3{
+    margin-bottom: px;
 }
