@@ -319,6 +319,8 @@ hr{
 .title{
     margin-top: 70px;
     margin-bottom: 10px;
+    font-size: 30px;
+    text-align: left;
 }
 .contact_form{
     display: flex;
@@ -357,6 +359,7 @@ form .send_btn{
     font-weight: 600;
     transition: all 0.50s ease;
     width: 60%;
+    margin-bottom: 3rem;
 }
 form .send_btn:hover{
     background: transparent;
@@ -392,13 +395,19 @@ form .send_btn:hover{
     margin-bottom: px;
 }
 .footer{
-    /* padding: 22px 15%; */
-    background: var(--second-bg-color);
+    /* margin-top: 2rem; */
+    position:fixed;
+    width: 100%;
+    bottom: 0;
+    right: 0;
+    /* z-index: 100;  */
     display: flex;
     align-items: center;
-    /* vertical-align: middle; */
     justify-content: space-between;
-    /* gap: 2rem; */
+    padding: 10px 15px 10px 20px;
+    background: brithness(50%);
+    transition: all .50s ease;
+    background: var(--second-bg-color);
 }
 .copyright p{
     font-size: 15px;
